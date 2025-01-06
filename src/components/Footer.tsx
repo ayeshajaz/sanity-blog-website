@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import FooterContactForm from "./FooterContactForm";
 import FooterLearn from "./FooterLearn";
-import SocialMedia from "./SocialMedia";
+
 import Image from "next/image";
 
 export default function Footer() {
@@ -30,9 +30,9 @@ export default function Footer() {
       
         <div>
           <p className="text-xs text-light">
-            © 2024 <span className="text-light font-bold">&nbsp;DEV</span>
-            <span className="text-accentDarkPrimary font-bold">
-              LAB&nbsp;
+            © 2024 <span className="text-light font-bold">&nbsp;BLOG</span>
+            <span className="text-blue-600 font-bold">
+              SITE&nbsp;
             </span>{" "}
             All rights reserved.
           </p>
