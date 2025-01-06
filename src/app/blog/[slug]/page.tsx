@@ -42,7 +42,7 @@ export default async function page({ params: { slug } }: { params: { slug: strin
 
       {/* Blog Summary Section */}
       <section>
-        <h2 className="text-xl xs:text-2xl md:text-3xl font-bold uppercase text-blue-600">
+        <h2 className="text-xl xs:text-2xl md:text-3xl font-semibold uppercase text-blue-600">
           Summary
         </h2>
         <p className="text-base md:text-xl leading-relaxed text-justify text-dark dark:text-light">
